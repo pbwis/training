@@ -22,13 +22,13 @@ Get-Content -Path .\serial_number.txt
 
 $From = $prompt_login
 
-# type correct email for receiver
+# type correct email for receiver between quotation marks
 $To = ".........@domain.name"
 
 $Attach = "C:\!_IT_TEST\serial_number.txt"
 $Subject = "Computer serial number"
 $Body = "Serial number and computer name added to attachement."
-$SMTP = "smtp.office365.com"
+$SMTP = "smtp.office365.com"  # office365 as an example
 $Port = "587"
 Send-MailMessage -From $From -to $To -Subject $Subject -Body $Body `
 -SmtpServer $SMTP -port $Port -UseSsl `
