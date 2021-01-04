@@ -1,5 +1,6 @@
 # Example of import modules.
 # Run script example: python3 parameters.py Toyota white 23411
+
 from sys import argv
 
 script, car, colour, mileage = argv
