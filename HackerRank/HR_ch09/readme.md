@@ -13,4 +13,5 @@ A single integer denoting **_n_**.
 
 ### Output format
 Print **_n_** lines where each line **_i_** (in the range **_1≤i≤n_**) contains the respective decimal, octal, capitalized hexadecimal, and binary values of **_i_**. Each printed value must be formatted to the width of the binary value of _**n**_.
-
+<br />
+Task source: [HackerRank](https://www.hackerrank.com)
