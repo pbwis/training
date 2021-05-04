@@ -14,3 +14,5 @@ def anti_vowel(text):
 example = "Hello book"
 print(anti_vowel(example))
 
+# OUTPUT:
+# Hll bk
